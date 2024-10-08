@@ -1,0 +1,58 @@
+body {
+  background-image: url("Artigo-MICROORGANISMO_AdobeStock_305541479.jpeg");
+  background-size: cover;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.quadradoBranco {
+  background-color: white;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  padding: 50px;
+  margin: 50px;
+  border-radius: 10px;
+}
+
+.conteudo img {
+  border-radius: 50%;
+  height: 200px;
+  box-shadow: 0px 0px 20px 0px;
+}
+
+#seta {
+  height: 30px;
+  display: flex;
+}
+
+.conteudo {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+li:hover {
+  transform: scale(1.1);
+  cursor: pointer;
+}
+
+li {
+  padding: 10px;
+}
+
+#descricao1 {
+  padding: 0px;
+  margin: 5px;
+
+}
+
+#descricao2 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 400px;
+}
